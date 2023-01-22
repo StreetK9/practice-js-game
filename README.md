@@ -1,1 +1,1 @@
-# practice-js-game
+game-js
