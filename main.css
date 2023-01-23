@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Sidebar ---------- */
+
+.sidebar{
+    display: none;
+    width:200px;
+    background-color: rgb(224, 224, 224);
+    padding-left: 20px;
+    height: 100vh;
+}
+.sidebar button{
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+.sidebar button:hover{
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+}
+.bar-item{
+    border-radius: 5px;
+}
+.link{
+    transition: 3s;
+}
+.link ul{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.link ul li{
+    list-style: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    width: 100px;
+}
+.link-search{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.link-search:hover{
+    color: rgb(197, 4, 4);
+    cursor: pointer;
+}
+.HOME{
+    color: rgb(197, 4, 4);
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    text-decoration: none;
+}
+
+/* ---------- Page Content ---------- */
+
+.header{
+    position: relative;
+    height: 30vh;
+    background-color: red;
+    background-image: url(./image/Home/background-main-header.jpeg);
+    background-position: 50% -80%;
+    background-size: cover;
+    border: 1px solid black;
+}
+.header button{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header button:hover{
+    background-color: rgb(197, 4, 4);
+    cursor: pointer;
+}
+.container{
+    width: 80%;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+}
+.container h1{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 2%;
+    color: rgb(255, 21, 21);
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+}
+.click-show-sidebar{
+    font-size: 25px;
+    width: 50px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 1px solid grey;
+    opacity: 0.9;
+}
+
+/* ---------- slide Content ---------- */
