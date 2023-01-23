@@ -64,8 +64,8 @@
     position: relative;
     height: 30vh;
     background-color: red;
-    background-image: url(./image/Home/background-main-header.jpeg);
-    background-position: 50% -80%;
+    background-image: url(./image/Home/porsche-bg-header.jpg);
+    background-position: 50% -90%;
     background-size: cover;
     border: 1px solid black;
 }
@@ -88,7 +88,7 @@
     text-align: center;
     font-size: 100px;
     padding-top: 2%;
-    color: rgb(255, 21, 21);
+    color: rgb(255, 181, 21);
     text-shadow: 3px 3px 0px rgb(0, 0, 0);
 }
 .click-show-sidebar{
@@ -102,3 +102,4 @@
 }
 
 /* ---------- slide Content ---------- */
+
